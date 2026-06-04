@@ -9,7 +9,7 @@ const tvSessions = new Map();
 
 const CLIENT_ID = "11278554359-hiev4f8q0sc81cpkalm8bg4rubucovms.apps.googleusercontent.com";
 const CLIENT_SECRET = "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";
-const REDIRECT_URI = "http://92.4.65.0:3007/api/tv/callback";
+const REDIRECT_URI = "https://tv-apk.onrender.com/api/tv/callback";
 const PORT = process.env.PORT || 3007;
 
 app.get('/api/tv/get-code', (req, res) => {
